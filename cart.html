@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;400&family=Lobster&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/style.css" />
     <link rel="stylesheet" href="resources/queries.css" />
-    <script src="shop.js" defer></script>
+    <script src="cart.js" defer></script>
     <script src="mobile.js" defer></script>
   </head>
   <body>
@@ -30,7 +30,7 @@
           <a href="/about.html">ABOUT</a>
         </li>
         <li>
-          <a class="active" href="/shop.html">SHOP</a>
+          <a href="/shop.html">SHOP</a>
         </li>
         <li>
           <a href="/contact.html">CONTACT</a>
@@ -100,62 +100,82 @@
       </ul>
     </div>
     <section>
-        <h1 class="section-title">SHOP</h1>
-        <div class="print-grid">
-          <!-- <div class="shop-grid-item">
-            <div class="shop-item-image">
-            </div>
-            <div class="shop-item-text">
-              <h3>Hannya</h3>
-              <p>Purveyor of forbidden ancient knowledge and all around fungi.</p>
-              <p>$300</p>
+        <h1 class="section-title">YOUR CART</h1>
+        <div class="cart-container">
+          <div class="cart-items-list">
+
+             <!-- <div class="cart-item">
+        <div class="cart-image-container">
+          <div class="cart-image"></div>
+          <button>X</button>
+        </div>
+        <h2 class="cart-title">Hannya</h2>
+        <div>$100</div>
+        <div class="cart-amount-container">
+          <button class="cart-amount-button">-</button>
+          <p class="cart-amount-field">1</p>
+          <button class="cart-amount-button">+</button>
+        </div>
+        <p class="total-price">$100</p>
+      </div>
+
+            <div class="cart-item">
+        <div class="cart-image-container">
+          <div class="cart-image"></div>
+          <button>X</button>
+        </div>
+        <h2 class="cart-title">Hannya</h2>
+        <div>$100</div>
+        <div class="cart-amount-container">
+          <button class="cart-amount-button">-</button>
+          <p class="cart-amount-field">1</p>
+          <button class="cart-amount-button">+</button>
+        </div>
+        <p class="total-price">$100</p>
+      </div>
+
+            <div class="cart-item">
+        <div class="cart-image-container">
+          <div class="cart-image"></div>
+          <button>X</button>
+        </div>
+        <h2 class="cart-title">Hannya</h2>
+        <div>$100</div>
+        <div class="cart-amount-container">
+          <button class="cart-amount-button">-</button>
+          <p class="cart-amount-field">1</p>
+          <button class="cart-amount-button">+</button>
+        </div>
+        <p class="total-price">$100</p>
+      </div> -->
+
+            <!-- <div class="cart-item">
+              <div class="cart-image-container">
+                  <div class="cart-image"></div>
+                  <button class="cart-item-delete-button">
+                    x
+                  </button>
+              </div>
+              <h2 class="cart-item-name">Hannya</h2>
+              <p class="cart-unit-price">$100</p>
+              <div class="cart-unit-controls-container">
+                <button class="cart-unit-button cart-unit-deccrement-button">-</button>
+                <div class="cart-units">1</div>
+                <button class="cart-unit-button cart-unit-increment-button">+</button>
+              </div>
+              <div class="cart-item-total-price">
+                $100
+              </div>
+            </div> -->
+            
           </div>
+          <div class="cart-totals">
+              <div class="cart-totals-container">
+                  <p class="total-items-field">Items: 0</p>
+                  <p class="total-price-field">Total: $0.00</p>
+                  <button class="checkout-button">CHECKOUT</button>
+              </div>
           </div>
-          <div class="shop-grid-item">
-            <div class="shop-item-image">
-            </div>
-            <div class="shop-item-text">
-              <h3>Hannya</h3>
-              <p>Purveyor of forbidden ancient knowledge and all around fungi.</p>
-              <p>$300</p>
-          </div>
-          </div>
-          <div class="shop-grid-item">
-            <div class="shop-item-image">
-            </div>
-            <div class="shop-item-text">
-              <h3>Hannya</h3>
-              <p>Purveyor of forbidden ancient knowledge and all around fungi.</p>
-              <p>$300</p>
-          </div>
-          </div>
-          <div class="shop-grid-item">
-            <div class="shop-item-image">
-            </div>
-            <div class="shop-item-text">
-              <h3>Hannya</h3>
-              <p>Purveyor of forbidden ancient knowledge and all around fungi.</p>
-              <p>$300</p>
-          </div>
-          </div>
-          <div class="shop-grid-item">
-            <div class="shop-item-image">
-            </div>
-            <div class="shop-item-text">
-              <h3>Hannya</h3>
-              <p>Purveyor of forbidden ancient knowledge and all around fungi.</p>
-              <p>$300</p>
-          </div>
-          </div>
-          <div class="shop-grid-item">
-            <div class="shop-item-image">
-            </div>
-            <div class="shop-item-text">
-              <h3>Hannya</h3>
-              <p>Purveyor of forbidden ancient knowledge and all around fungi.</p>
-              <p>$300</p>
-          </div>
-          </div> -->
         </div>
     </section>
     <footer>

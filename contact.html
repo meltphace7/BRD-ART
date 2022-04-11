@@ -10,10 +10,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;400&family=Lobster&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/style.css" />
+    <link rel="stylesheet" href="resources/queries.css" />
     <script src="contact.js" defer></script>
+    <script src="mobile.js" defer></script>
   </head>
   <body>
-    <nav>
+     <nav>
       <a class="logo-container" href="index.html">
         <h2>BROCK DALLMAN ART</h2>
       </a>
@@ -31,10 +33,72 @@
           <a href="/shop.html">SHOP</a>
         </li>
         <li>
-          <a href="/contact.html">CONTACT</a>
+          <a class="active" href="/contact.html">CONTACT</a>
+        </li>
+         <li>
+          <a class="cart-badge" href="/cart.html">
+        <span>
+           <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class='cart-icon'
+        viewBox="0 0 512 512"
+      >
+        <title>Cart</title>
+        <circle cx="176" cy="416" r="32" />
+        <circle cx="400" cy="416" r="32" />
+        <path d="M456.8 120.78a23.92 23.92 0 00-18.56-8.78H133.89l-6.13-34.78A16 16 0 00112 64H48a16 16 0 000 32h50.58l45.66 258.78A16 16 0 00160 368h256a16 16 0 000-32H173.42l-5.64-32h241.66A24.07 24.07 0 00433 284.71l28.8-144a24 24 0 00-5-19.93z" />
+      </svg>
+        </span>
+        <span class='cart-items-badge-num'>
+         0
+        </span>
+          </a>
         </li>
       </ul>
     </nav>
+    <!-- MOBILE NAV -->
+    
+    <div class="mobile-nav-container">
+    <div class="mobile-nav">
+       <a class="logo-container" href="index.html">
+        <h2>BROCK DALLMAN ART</h2>
+      </a>
+      <div class="nav-menu-group">
+        <a class="mobile-cart-badge" href="/cart.html">
+        <span>
+           <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class='mobile-cart-icon'
+        viewBox="0 0 512 512"
+      >
+        <title>Cart</title>
+        <circle cx="176" cy="416" r="32" />
+        <circle cx="400" cy="416" r="32" />
+        <path d="M456.8 120.78a23.92 23.92 0 00-18.56-8.78H133.89l-6.13-34.78A16 16 0 00112 64H48a16 16 0 000 32h50.58l45.66 258.78A16 16 0 00160 368h256a16 16 0 000-32H173.42l-5.64-32h241.66A24.07 24.07 0 00433 284.71l28.8-144a24 24 0 00-5-19.93z" />
+      </svg>
+        </span>
+        <span class='mobile-cart-items-badge-num'>
+         0
+        </span>
+          </a>
+      <div class="hamburger-menu">
+        <div class="hamburger-stripe"></div>
+        <div class="hamburger-stripe"></div>
+        <div class="hamburger-stripe"></div>
+      </div>
+       </div>
+    </div>
+     <ul class="mobile-nav-menu-dropdown">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="gallery-2.html">Gallery</a>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </div>
     <header>
     </header>
     <section class="contact">
@@ -86,18 +150,15 @@
       </h3>
     </section>
     <footer>
-        <div class="logo-container">
-          <h2>Brock Dallman Art</h2>
-          <p>Brock Dallman Art 2022 all rights reserved</p>
-        </div>
-        <div class="social-container">
-          <a href="facebook.com">
-            <img class="social-logo" src="resources/img/logo-facebook.svg" />
-          </a>
-          <a href="facebook.com">
-            <img class="social-logo" src="resources/img/logo-instagram (1).svg" />
-          </a>
-        </div>
-      </footer>
+        <h3 class="footer-legal">Brock Dallman Art 2022 all rights reserved</h3>
+      <div class="social-container">
+        <a href="facebook.com">
+          <img class="social-logo" src="resources/img/logo-facebook.svg" />
+        </a>
+        <a href="facebook.com">
+          <img class="social-logo" src="resources/img/logo-instagram (1).svg" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

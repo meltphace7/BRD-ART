@@ -6,6 +6,28 @@ const btnNext = document.querySelector('.slider-btn-next')
 const btnPrev = document.querySelector('.slider-btn-prev')
 const sliderBtnNext = document.querySelector('.slider-btn-next')
 const sliderBtnPrev = document.querySelector('.slider-btn-prev')
+const mobileSliderBtnNext = document.querySelector(".mobile-slider-btn-next");
+const mobileSliderBtnPrev = document.querySelector(".mobile-slider-btn-prev");
+const cartIcon = document.querySelector(".cart-icon");
+const cartItemsBadgeNum = document.querySelector(".cart-items-badge-num");
+const mobileBadgeNum = document.querySelector(".mobile-cart-items-badge-num");
+
+/* _______  CART-BADGE ______________*/
+
+let cart = JSON.parse(localStorage.getItem("CART")) || [];
+if (cart.length >= 1) {
+  cartIcon.style.fill = "rgb(60, 215, 60)";
+}
+
+const calcItems = function () {
+    const totalItems = cart.reduce((acc, cur) => acc + cur.unit, 0);
+    mobileBadgeNum.innerHTML = `${totalItems}`;
+    cartItemsBadgeNum.innerHTML = `${totalItems}`;
+  ;
+};
+calcItems();
+
+/* _______  IMAGE - SLIDER ______________*/
 
 let curSlide = 0;
 const maxSlide = slides.length - 1;
@@ -36,6 +58,8 @@ const prevSlide = function() {
 
 sliderBtnNext.addEventListener('click', nextSlide)
 sliderBtnPrev.addEventListener('click', prevSlide)
+mobileSliderBtnNext.addEventListener("click", nextSlide);
+mobileSliderBtnPrev.addEventListener("click", prevSlide);
 
 document.addEventListener('keydown', function(e) {
     if(e.key === 'ArrowLeft') prevSlide();
