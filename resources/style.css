@@ -476,6 +476,17 @@ header {
     /* grid-template-columns: repeat(13 1fr); */
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 0.5rem;
+    animation: fadein 2s ease-in;
+  }
+
+  @keyframes fadein {
+    0% {
+      opacity: 0
+    }
+
+     100% {
+      opacity: 1
+    }
   }
   
   .feature-grid-item {
@@ -671,6 +682,7 @@ header {
   /* grid-template-columns: repeat(13 1fr); */
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-gap: 0.5rem;
+  animation: fadein 1.5s ease-in;
 }
 
 .gallery-grid-item {
@@ -1206,6 +1218,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    animation: fadein 1s ease-in;
 }
 
 .slider {

@@ -1,0 +1,18 @@
+{
+  "name": "brd-art-website-----",
+  "version": "1.0.0",
+  "description": "A website featuring the art of Brock Dallman",
+  "main": "script.js",
+  "scripts": {
+    "start": "npm run index.html",
+    "build": "cp -r src/* public/ "
+
+  },
+  "keywords": [
+    "brock",
+    "dallman",
+    "art"
+  ],
+  "author": "brock dallman",
+  "license": "ISC"
+}
