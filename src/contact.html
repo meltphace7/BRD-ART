@@ -3,40 +3,40 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
+    <title>Brock Dallman Art/contact</title>
+    <meta name="description" content="Brock Dallman Art contact" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;400&family=Lobster&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/style.css" />
     <link rel="stylesheet" href="resources/queries.css" />
-    <script src="about.js" defer></script>
-    <script src="mobile.js" defer></script>
+    <script src="./contact.js" defer></script>
+    <script src="./mobile.js" defer></script>
   </head>
   <body>
      <nav>
-      <a class="logo-container" href="index.html">
+      <a class="logo-container" href="./index.html">
         <h2>BROCK DALLMAN ART</h2>
       </a>
       <ul class="nav-menu">
         <li>
-          <a href="/index.html">HOME</a>
+          <a href="./index.html">HOME</a>
         </li>
         <li>
-          <a href="/gallery-2.html">GALLERY</a>
+          <a href="./gallery-2.html">GALLERY</a>
         </li>
         <li>
-          <a class="active" href="/about.html">ABOUT</a>
+          <a href="./about.html">ABOUT</a>
         </li>
         <li>
-          <a href="/shop.html">SHOP</a>
+          <a href="./shop.html">SHOP</a>
         </li>
         <li>
-          <a href="/contact.html">CONTACT</a>
+          <a class="active" href="./contact.html">CONTACT</a>
         </li>
          <li>
-          <a class="cart-badge" href="/cart.html">
+          <a class="cart-badge" href="./cart.html">
         <span>
            <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -60,11 +60,11 @@
     
     <div class="mobile-nav-container">
     <div class="mobile-nav">
-       <a class="logo-container" href="index.html">
+       <a class="logo-container" href="./index.html">
         <h2>BROCK DALLMAN ART</h2>
       </a>
       <div class="nav-menu-group">
-        <a class="mobile-cart-badge" href="/cart.html">
+        <a class="mobile-cart-badge" href="./cart.html">
         <span>
            <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -89,34 +89,66 @@
        </div>
     </div>
      <ul class="mobile-nav-menu-dropdown">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="./index.html">Home</a></li>
         <li>
-          <a href="gallery-2.html">Gallery</a>
+          <a href="./gallery-2.html">Gallery</a>
         </li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="cart.html">Cart</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./shop.html">Shop</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./cart.html">Cart</a></li>
       </ul>
     </div>
-    <section>
-        <h1 class="section-title">ABOUT</h1>
-        <div class="bio-container">
-          <div class="bio-img-container">
-            <img class="bio-image" src="resources/img/BROCK-CHICKEN.jpg">
+    <header>
+    </header>
+    <section class="contact">
+      <h1 class="section-title">CONTACT</h1>
+      <p class="contact-email">brock.dallman@gmail.com</p>
+      <!-- https://formspree.io/f/mwkypwln -->
+      <form action="https://formspree.io/f/mwkypwln" method="POST" id="my-form">
+        <div class="name-row">
+          <div class="form-group">
+            <label class="" for="first-name">First Name</label>
+            <input
+              class="form-text"
+              type="text"
+              id="first-name"
+              name="first-name"
+            />
           </div>
-          <div class="bio-text-container">
-            <p>
-                I've always been a science fiction fan.  Whether it be movies, books, comics or videogames, I take inspiration to create my own worlds.  Worlds populated by peculiar and sometimes terrifying creatures. The vastness of space suggests limitless possibilities of what other advanced lifeforms may look like.  I like to explore these possibilities, as well as create my own rendition of mythical beings from our own Earthly legends.
-                  The freedom to create and simealotaneously escape to a new reality has always been my favorite aspect of art.  I enjoy the immediacy and directness of portraits.  The feeling that, as you look at a bizarre and alien entity, it stares right back.
-              
-              
-              
-             </p>
+
+          <div class="form-group">
+            <label class="" for="last-name">Last Name</label>
+            <input
+              class="form-text"
+              type="text"
+              id="last-name"
+              name="last-name"
+            />
           </div>
         </div>
+
+        <div class="form-group">
+          <label class="email" for="email">Email Address</label>
+          <input class="form-text" type="email" id="email" name="email" />
+        </div>
+
+        <div class="form-group">
+          <label class="subject" for="subject">Subject</label>
+          <input class="form-text" type="subject" id="subject" name="subject" />
+        </div>
+
+        <div class="form-group">
+          <label class="message" for="message">Message</label>
+          <textarea class="form-text" name="message" id="message"></textarea>
+        </div>
+
+        <button class="submit-button" type="submit">SUBMIT</button>
+      </form>
+      <h3 class="form-status" id="my-form-status">
+        Oops! There was a problem submitting your form
+      </h3>
     </section>
-    <section class="about"></section>
     <footer>
         <h3 class="footer-legal">Brock Dallman Art 2022 all rights reserved</h3>
       <div class="social-container">
