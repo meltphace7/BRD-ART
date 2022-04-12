@@ -445,7 +445,7 @@ header {
   }
   
   .feature-grid-item {
-    background-color: white;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -616,8 +616,8 @@ header {
 }
 
 .gallery-grid-item {
-  background-color: white;
-  height: 29.5rem;
+  background-color: black;
+  height: 27rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -641,11 +641,11 @@ header {
   grid-row-end: 2;
 }
 
-.gallery-grid-item-1 img {
+/* .gallery-grid-item-1 img {
     position: relative;
     top: -3rem;
     transform: scale(1.3);
-}
+} */
 
 .gallery-grid-item-2 {
   grid-column-start: 2;
@@ -654,11 +654,11 @@ header {
   grid-row-end: 2;
 }
 
-.gallery-grid-item-2 img {
+/* .gallery-grid-item-2 img {
   position: relative;
   top: -1rem;
   transform: scale(1.2);
-}
+} */
 
 .gallery-grid-item-3 {
   grid-column-start: 3;
@@ -667,11 +667,11 @@ header {
   grid-row-end: 2;
 }
 
-.gallery-grid-item-3 img {
+/* .gallery-grid-item-3 img {
   position: relative;
   top: -1rem;
   transform: scale(1.4);
-}
+} */
 
 .gallery-grid-item-4 {
   grid-column-start: 1;
@@ -680,11 +680,11 @@ header {
   grid-row-end: 3;
 }
 
-.gallery-grid-item-4 img {
+/* .gallery-grid-item-4 img {
   position: relative;
   top: 0rem;
   transform: scale(1);
-}
+} */
 
 .gallery-grid-item-5 {
   grid-column-start: 2;
@@ -694,9 +694,9 @@ header {
 }
 
 .gallery-grid-item-5 img {
-  position: relative;
+  /* position: relative; */
   /* top: -4rem; */
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 
 .gallery-grid-item-6 {
@@ -707,9 +707,9 @@ header {
 }
 
 .gallery-grid-item-6 img {
-  position: relative;
+  /* position: relative;
   top: 0rem;
-  transform: scale(1.3);
+  transform: scale(1.3); */
 }
 
 .gallery-grid-item-7 {
@@ -720,9 +720,9 @@ header {
 }
 
 .gallery-grid-item-7 img {
-  position: relative;
+  /* position: relative;
   top: 0rem;
-  transform: scale(1.5);
+  transform: scale(1.5); */
 }
 
 .gallery-grid-item-8 {
@@ -733,10 +733,10 @@ header {
 }
 
 .gallery-grid-item-8 img {
-  position: relative;
+  /* position: relative;
   top: -3rem;
   right: -2rem;
-  transform: scale(1.3);
+  transform: scale(1.3); */
 }
 
 .gallery-grid-item-9 {
@@ -747,9 +747,9 @@ header {
 }
 
 .gallery-grid-item-9 img {
-  position: relative;
+  /* position: relative;
   top: -3rem;
-  transform: scale(2.5);
+  transform: scale(2.5); */
 }
 
 .gallery-grid-item-10 {
@@ -760,10 +760,10 @@ header {
 }
 
 .gallery-grid-item-10 img {
-  position: relative;
+  /* position: relative;
   top: 0rem;
   right: 0rem;
-  transform: scale(1.2);
+  transform: scale(1.2); */
 }
 
 .gallery-grid-item-11 {
@@ -774,8 +774,8 @@ header {
 }
 
 .gallery-grid-item-11 img {
-  position: relative;
-  transform: scale(1.4);
+  /* position: relative;
+  transform: scale(1.4); */
 }
 
 .gallery-grid-item-12 {
@@ -786,10 +786,10 @@ header {
 }
 
 .gallery-grid-item-12 img {
-  position: relative;
+  /* position: relative;
   top: -2rem;
   right: 2rem;
-  transform: scale(1.4);
+  transform: scale(1.4); */
 }
 
 .gallery-grid-item-13 {
@@ -800,7 +800,7 @@ header {
 }
 
 .gallery-grid-item-13 img {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 .gallery-grid-item-14 {
@@ -811,8 +811,8 @@ header {
 }
 
 .gallery-grid-item-14 img {
-  position: relative;
-  transform: scale(1.7);
+  /* position: relative;
+  transform: scale(1.7); */
 }
 
 .gallery-grid-item-15 {
@@ -823,9 +823,9 @@ header {
 }
 
 .gallery-grid-item-15 img {
-  position: relative;
+  /* position: relative;
   top: 0rem;
-  transform: scale(1.2);
+  transform: scale(1.2); */
 }
 
 .gallery-grid-item-16 {
@@ -836,10 +836,10 @@ header {
 }
 
 .gallery-grid-item-16 img {
-  position: relative;
+  /* position: relative;
   top: -2rem;
   right: 3rem;
-  transform: scale(1.7);
+  transform: scale(1.7); */
 }
 
 .gallery-grid-item-17 {
@@ -850,8 +850,8 @@ header {
 }
 
 .gallery-grid-item-17 img {
-  position: relative;
-  transform: scale(1.1);
+  /* position: relative;
+  transform: scale(1.1); */
 }
 
 .gallery-grid-item-18 {
@@ -862,8 +862,8 @@ header {
 }
 
 .gallery-grid-item-18 img {
-  position: relative;
-  transform: scale(1.6);
+  /* position: relative;
+  transform: scale(1.6); */
 }
 
 .gallery-grid-item-19 {
@@ -874,8 +874,8 @@ header {
 }
 
 .gallery-grid-item-19 img {
-  position: relative;
-  transform: scale(1.1);
+  /* position: relative;
+  transform: scale(1.1); */
 }
 
 .gallery-grid-item-20 {
@@ -886,9 +886,9 @@ header {
 }
 
 .gallery-grid-item-20 img {
-  position: relative;
+  /* position: relative;
   top: -2rem;
-  transform: scale(1.7);
+  transform: scale(1.7); */
 }
 
 .gallery-grid-item-21 {
@@ -899,8 +899,8 @@ header {
 }
 
 .gallery-grid-item-21 img {
-  position: relative;
-  transform: scale(1.6);
+  /* position: relative;
+  transform: scale(1.6); */
 }
 
 .gallery-grid-item-22 {
@@ -911,10 +911,10 @@ header {
 }
 
 .gallery-grid-item-22 img {
-  position: relative;
+  /* position: relative;
   right: -1rem;
   top: -3.5rem;
-  transform: scale(1.2);
+  transform: scale(1.2); */
 }
 
 .gallery-grid-item-23 {
@@ -925,8 +925,8 @@ header {
 }
 
 .gallery-grid-item-23 img {
-  position: relative;
-  transform: scale(1.9);
+  /* position: relative;
+  transform: scale(1.9); */
 }
 
 .gallery-grid-item-24 {
@@ -937,8 +937,8 @@ header {
 }
 
 .gallery-grid-item-24 img {
-  position: relative;
-  transform: scale(1.3);
+  /* position: relative;
+  transform: scale(1.3); */
 }
 
 .gallery-grid-item-25 {
@@ -949,9 +949,9 @@ header {
 }
 
 .gallery-grid-item-25 img {
-  position: relative;
+  /* position: relative;
   right: -1.5rem;
-  transform: scale(1.9);
+  transform: scale(1.9); */
 }
 
 .gallery-grid-item-26 {
@@ -962,9 +962,9 @@ header {
 }
 
 .gallery-grid-item-26 img {
-  position: relative;
+  /* position: relative;
   right: -2rem;
-  transform: scale(1.8);
+  transform: scale(1.8); */
 }
 
 .gallery-grid-item-27 {
@@ -975,10 +975,10 @@ header {
 }
 
 .gallery-grid-item-27 img {
-  position: relative;
+  /* position: relative;
   top: 0rem;
   right: -2rem;
-  transform: scale(1.8);
+  transform: scale(1.8); */
 }
 
 .gallery-grid-item-28 {
@@ -989,9 +989,9 @@ header {
 }
 
 .gallery-grid-item-28 img {
-  position: relative;
+  /* position: relative;
   top: -3rem;
-  transform: scale(1.3);
+  transform: scale(1.3); */
 }
 
 .gallery-grid-item-29 {
@@ -1002,9 +1002,9 @@ header {
 }
 
 .gallery-grid-item-29 img {
-  position: relative;
+  /* position: relative;
   top: -4rem;
-  transform: scale(1.4);
+  transform: scale(1.4); */
 }
 
 .gallery-grid-item-30 {
@@ -1015,10 +1015,10 @@ header {
 }
 
 .gallery-grid-item-30 img {
-  position: relative;
+  /* position: relative;
   top: 3rem;
   right: -2rem;
-  transform: scale(2.3);
+  transform: scale(2.3); */
 }
 
 .gallery-grid-item-31 {
@@ -1029,10 +1029,10 @@ header {
 }
 
 .gallery-grid-item-31 img {
-  position: relative;
+  /* position: relative;
   top: -2.5rem;
   right: -.5rem;
-  transform: scale(1.3);
+  transform: scale(1.3); */
 }
 
 .gallery-grid-item-32 {
@@ -1043,10 +1043,10 @@ header {
 }
 
 .gallery-grid-item-32 img {
-  position: relative;
+  /* position: relative;
   top: 1rem;
   right: -.75rem;
-  transform: scale(1.6);
+  transform: scale(1.6); */
 }
 
 .gallery-grid-item-33 {
@@ -1057,9 +1057,9 @@ header {
 }
 
 .gallery-grid-item-33 img {
-  position: relative;
+  /* position: relative;
   top: 2rem;
-  transform: scale(1.2);
+  transform: scale(1.2); */
 }
 
 .gallery-grid-item-34 {
@@ -1071,8 +1071,8 @@ header {
 
 .gallery-grid-item-34 img {
   position: relative;
-  right: -.5rem;
-  transform: scale(1.5);
+  /* right: -.5rem;
+  transform: scale(1.5); */
 }
 
 .gallery-grid-item-35 {
@@ -1083,8 +1083,8 @@ header {
 }
 
 .gallery-grid-item-35 img {
-  position: relative;
-  transform: scale(1.5);
+  /* position: relative;
+  transform: scale(1.5); */
 }
 
 .gallery-grid-item-36 {
@@ -1095,9 +1095,9 @@ header {
 }
 
 .gallery-grid-item-36 img {
-  position: relative;
+  /* position: relative;
   top: 1rem;
-  transform: scale(1.3);
+  transform: scale(1.3); */
 }
 
 .gallery-grid-item-37 {
@@ -1108,8 +1108,8 @@ header {
 }
 
 .gallery-grid-item-37 img {
-  position: relative;
-  transform: scale(1.1);
+  /* position: relative;
+  transform: scale(1.1); */
 }
 
 .gallery-grid-item-38 {
@@ -1120,8 +1120,8 @@ header {
 }
 
 .gallery-grid-item-38 img {
-  position: relative;
-  transform: scale(1.2);
+  /* position: relative;
+  transform: scale(1.2); */
 }
 
 .gallery-grid-item-39 {
@@ -1132,10 +1132,10 @@ header {
 }
 
 .gallery-grid-item-39 img {
-  position: relative;
+  /* position: relative;
   top: -2rem;
   right: -1rem;
-  transform: scale(1.5);
+  transform: scale(1.5); */
 }
 
 
@@ -1501,13 +1501,14 @@ header {
 
 .bio-img-container {
     height: 40rem;
-    background-color: var(--color-tertiary);
+    width: auto;
+    background-color: black;
     border-radius: 20px;
     overflow: hidden;
 }
 
 .bio-image {
-  height: 100%;
+  height: 40rem;;
   width: auto;
 
 }
