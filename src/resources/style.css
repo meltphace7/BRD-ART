@@ -258,9 +258,9 @@ nav {
 }
 
 /* Rotate on hover when checked */
-.menu-wrap .toggler:checked:hover + .hamburger > div {
+/* .menu-wrap .toggler:checked:hover + .hamburger > div {
   transform: rotate(90deg);
-}
+} */
 
 /* Show menu */
 .menu-wrap .toggler:checked ~ .menu {
@@ -470,9 +470,7 @@ header {
   }
 
   .feature-grid-item-1 img {
-      position: relative;
-      top: -3rem;
-      transform: scale(1.5);
+      transform: scale(1.2);
   }
   
   .feature-grid-item-2 {
@@ -483,9 +481,7 @@ header {
   }
 
   .feature-grid-item-2 img {
-    position: relative;
-    top: -1rem;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
   
   .feature-grid-item-3 {
@@ -496,9 +492,7 @@ header {
   }
 
   .feature-grid-item-3 img {
-    position: relative;
-    top: -1rem;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .feature-grid-item-4 {
@@ -508,10 +502,8 @@ header {
     grid-row-end: 3;
   }
 
-  .feature-grid-item-4 img {
-    position: relative;
-    top: -4rem;
-    transform: scale(1.45);
+.feature-grid-item-4 img {
+    transform: scale(1.1);
 }
 
 .feature-grid-item-5 {
@@ -521,10 +513,8 @@ header {
     grid-row-end: 3;
   }
 
-  .feature-grid-item-5 img {
-    position: relative;
-    top: -4rem;
-    transform: scale(1.6);
+.feature-grid-item-5 img {
+    transform: scale(1.2);
 }
 
 .feature-grid-item-6 {
@@ -535,9 +525,8 @@ header {
   }
 
   .feature-grid-item-6 img {
-    position: relative;
-    top: -2rem;
-    transform: scale(1.5);
+    
+    transform: scale(1.2);
 }
 
 .feature-grid-item-7 {
@@ -548,9 +537,7 @@ header {
   }
 
   .feature-grid-item-7 img {
-    position: relative;
-    top: 0rem;
-    transform: scale(2);
+    transform: scale(1.2);
 }
 
 .feature-grid-item-8 {
@@ -562,9 +549,8 @@ header {
 
   .feature-grid-item-8 img {
     position: relative;
-    top: -3rem;
-    right: -3rem;
-    transform: scale(1.5);
+    right: -2rem;
+    transform: scale(1.25);
 }
 
 .feature-grid-item-9 {
@@ -574,10 +560,8 @@ header {
     grid-row-end: 4;
   }
 
-  .feature-grid-item-9 img {
-    position: relative;
-    top: 0rem;
-    transform: scale(1.2);
+.feature-grid-item-9 img {
+    transform: scale(1.3);
 }
 
 .feature-grid-item-10 {
@@ -588,10 +572,7 @@ header {
   }
 
   .feature-grid-item-10 img {
-    position: relative;
-    top: 0rem;
-    right: -2rem;
-    transform: scale(1.6);
+    transform: scale(1.1);
 }
 
 .feature-grid-item-11 {
@@ -599,25 +580,19 @@ header {
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
-  }
-
-  .feature-grid-item-11 img {
-    position: relative;
-    transform: scale(1.4);
 }
+
+
 
 .feature-grid-item-12 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5;
-  }
+}
 
-  .feature-grid-item-12 img {
-    position: relative;
-    top: -5rem;
-    right: 2rem;
-    transform: scale(1.6);
+.feature-grid-item-12 img {
+    transform: scale(1.2);
 }
 
 .feature-grid-item-13 {
