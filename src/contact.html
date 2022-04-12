@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="resources/style.css" />
     <link rel="stylesheet" href="resources/queries.css" />
     <script src="./contact.js" defer></script>
-    <script src="./mobile.js" defer></script>
   </head>
   <body>
      <nav>
@@ -56,15 +55,13 @@
         </li>
       </ul>
     </nav>
-    <!-- MOBILE NAV -->
-    
-    <div class="mobile-nav-container">
-    <div class="mobile-nav">
-       <a class="logo-container" href="./index.html">
+      <!-- MOBILE NAV -->
+  <div class="mobile-nav-menu">
+    <a class="logo-container" href="./index.html">
         <h2>BROCK DALLMAN ART</h2>
       </a>
-      <div class="nav-menu-group">
-        <a class="mobile-cart-badge" href="./cart.html">
+      <div class="mobile-nav-menu-group">
+      <a class="mobile-cart-badge" href="./cart.html">
         <span>
            <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -81,24 +78,28 @@
          0
         </span>
           </a>
-      <div class="hamburger-menu">
-        <div class="hamburger-stripe"></div>
-        <div class="hamburger-stripe"></div>
-        <div class="hamburger-stripe"></div>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./gallery-2.html">Gallery</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./cart.html">Cart</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-       </div>
     </div>
-     <ul class="mobile-nav-menu-dropdown">
-        <li><a href="./index.html">Home</a></li>
-        <li>
-          <a href="./gallery-2.html">Gallery</a>
-        </li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./shop.html">Shop</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./cart.html">Cart</a></li>
-      </ul>
-    </div>
+ </div>
+    
+    
     <header>
     </header>
     <section class="contact">
