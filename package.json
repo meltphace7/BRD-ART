@@ -6,12 +6,10 @@
   "scripts": {
     "start": "npm run index.html",
     "build": "cp -r src/* public/ "
-
   },
   "keywords": [
     "brock",
     "dallman",
-    
     "art"
   ],
   "author": "brock dallman",
