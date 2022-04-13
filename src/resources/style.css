@@ -108,9 +108,7 @@ nav {
 
 .cart-badge {
   height: 3rem;
-  width: 5rem;
-  border-radius: 10px;
-  background-color: rgb(70, 70, 70);
+  width: 4.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -135,15 +133,20 @@ nav {
 
 /*___________ MOBILE-NAV _________________________________________ */
 
+.sticky {
+  position: fixed;
+}
+
 .mobile-nav-menu {
-    width: 100;
-    height: 5rem;
+    width: 100%;
+    height: 4rem;
+    z-index: 10;
     background-color: black;
     color: white;
     display: none;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    /* position: fixed; */
 }
 
 .mobile-nav-menu-group {
@@ -401,13 +404,13 @@ header {
 }
 
 @keyframes headerZoom {
-    0% {
-        transform: scale(1);
-    }
+  0% {
+      transform: scale(1);
+  }
 
-    100% {
-        transform: scale(1.4);
-    }
+   100% {
+       transform: scale(1.4);
+   }
 
 }
 
