@@ -55,6 +55,11 @@
   display: none;
 }
 
+.zoom-overlay {
+  animation: none;
+
+}
+
 .mobile-header-slide {
   display: flex;
 }
