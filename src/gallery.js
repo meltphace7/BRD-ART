@@ -133,17 +133,17 @@ if(imgID === 'interdemensional-being') {
 
 if(imgID === 'rage') {
     goToSlide(11)
-    curSlide(11);
+    curSlide = 11;
 }
 
 if(imgID === 'schitzoid') {
     goToSlide(12)
-    curSlide(12)
+    curSlide = 12;
 }
 
 if(imgID === 'alien-lord') {
     goToSlide(13)
-    curSlide(13)
+    curSlide = 13
 }
 
 if(imgID === 'glub') {
