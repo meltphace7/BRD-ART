@@ -82,7 +82,93 @@
     display: flex;
 }
 
-  /*____ HOMEPAGE-GRID ___________________ */
+/*____ blurb-welcome ___________________ */
+
+.welcome-container {
+  width: 90%;
+  font-size: 1rem;
+}
+
+.welcome-container h1 {
+  font-size: 2rem;
+}
+
+/*____ blurb - gallery ___________________ */
+
+.blurb-button {
+  height: 3rem;
+  width: 8rem;
+  font-size: 1rem;
+}
+
+.gallery-blurb-container {
+  width: 95%;
+  height: 20rem;
+}
+
+.gallery-blurb-text-container {
+  width: 40%;
+  padding: .5rem;
+}
+
+.gallery-blurb-text-container h3 {
+  font-size: .75rem;
+}
+
+.gallery-blurb-text-container h1 {
+  font-size: 1rem;
+}
+
+  /*____ blurb - shop ___________________ */
+
+.shop-blurb-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-blurb-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-blurb-text-container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.shop-blurb-container img {
+  width: 100%;
+}
+
+/*____ blurb - applejam ___________________ */
+
+ .applejam-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .applejam-applehead-container {
+   width: 100%;
+  }
+
+  .applejam-column-2  {
+    width: 95%;
+    height: 100%;
+  }
+
+.applejam-text-container h1 {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+/*____ HOMEPAGE-GRID ___________________ */
   
   .feature-grid-item-1 img {
     transform: scale(1.6);

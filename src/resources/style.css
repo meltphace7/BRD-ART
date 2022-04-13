@@ -1,6 +1,5 @@
 @font-face {
     font-family: Gruppo;
-    /* src: url('../fonts/Calligraffitti/Calligraffitti-Regular.ttf'); */
     src: url('./font/Gruppo/Gruppo-Regular.ttf');
 }
 
@@ -23,9 +22,6 @@ html, body {
     box-sizing: border-box;
     letter-spacing: .1rem;
     font-family: Gruppo
-    /* font-family: 'Exo', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Signika Negative', sans-serif; */
 }
 
 body {
@@ -53,7 +49,8 @@ button {
     padding: .2rem;
     border-radius: 5px;
     color: var(--color-secondary);
-    background-color: var(--color-dark-1)
+    background-color: var(--color-dark-1);
+    font-family: Gruppo;
 }
 
 button:hover {
@@ -441,7 +438,203 @@ header {
     display: none;
 }
 
-/*___________ HOME-PAGE GRID-GALLERY ________________________________________*/
+
+
+
+/*___________ Welcome blurb ____________________*/
+.welcome-container {
+  width: 70%;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.386);
+}
+
+.welcome-container h1 {
+  color: var(--color-primary);
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-container p {
+  color: white;
+}
+
+.blurb-button {
+  margin: 2rem 0rem;
+  width: 12rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: 250ms;
+}
+
+.blurb-button:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+/*___________ GALLERY blurb ____________________*/  
+
+.gallery-blurb-container {
+  width: 90%;
+  height: 35rem;
+  padding: 2rem;
+  border-radius: 5px;
+  background-image: url('./img/BLURB-Azures.jpg');
+  background-size: cover;
+  background-position: 0% 50%;
+  border: 1px solid yellowgreen;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.gallery-blurb-text-container {
+  width: 25%;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.735);
+}
+
+.gallery-blurb-text-container h3 {
+  color: yellowgreen;
+}
+
+.gallery-blurb-text-container h1 {
+  color: var(--color-primary);
+  margin: 1rem 0rem;
+}
+
+.gallery-blurb-text-container p {
+  color: white;
+}
+
+.blurb-gallery-button {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  background-color: black;
+}
+
+/*___________ PRINT SHOP blurb ____________________*/  
+
+.shop-blurb-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.386);
+}
+  
+.shop-blurb-text-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-blurb-text-container h3 {
+  color: yellowgreen;
+}
+
+.shop-blurb-text-container h1 {
+  color: var(--color-primary);
+  margin: 1rem 0rem;
+}
+
+.shop-blurb-text-container p{
+  color: white;
+}
+
+.blurb-shop-button {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  background-color: black;
+}
+
+  .shop-blurb-container img {
+    width: 60%;
+    height: auto;
+    border: 5px solid white;
+  }
+
+
+/*___________ APPLEJAM BLURB____________________*/  
+
+
+  .applejam-container {
+    padding: 1rem;
+    width: 95%;
+    border: 1px solid yellowgreen;
+    background-color: rgba(0, 0, 0, 0.509);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .applejam-applehead-container {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+  }
+
+  .applejam-applehead-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .applejam-column-2  {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+
+.applejam-text-container {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.applejam-text-container h1 {
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.applejam-image-container {
+  width: 100%;
+  padding: .5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.applejam-image-container img {
+  width: 45%;
+  height: auto;
+}
+
+
+/*___________ HOME-PAGE GRID-GALLERY ____________________*/
+
 .feature-grid {
     width: 92%;
     padding: 2rem 1rem;
@@ -1887,6 +2080,7 @@ footer {
     height: 10rem;
     color: white;
     background-color: black;
+    border-top: 1px solid yellowgreen;
     display: flex;
     justify-content: space-between;
     align-items: center;
