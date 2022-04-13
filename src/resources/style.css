@@ -360,11 +360,19 @@ header {
     align-items: center;
 }
 
+.mobile-header-slide {
+    width: 100%;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-overlay {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeinout 10s ease-in infinite;
+    animation: fadeinout 10s ease-in 4;
 }
 
 @keyframes fadeinout {
@@ -408,17 +416,29 @@ header {
 
 .header-slide-1 {
     width: 100%;
-    /* animation: headerZoom 10s ease-in 1; */
 }
 
 .header-slide-2 {
     width: 100%;
-    /* animation: headerZoom 10s ease-in 10s 1; */
 }
 
 .header-slide-3 {
     width: 100%;
-    /* animation: headerZoom 10s ease-in 20s 1; */
+}
+
+.mobile-header-slide-1 {
+    width: 100%;
+    display: none;
+}
+
+.mobile-header-slide-2 {
+    width: 100%;
+    display: none;
+}
+
+.mobile-header-slide-3 {
+    width: 100%;
+    display: none;
 }
 
 /*___________ HOME-PAGE GRID-GALLERY ________________________________________*/

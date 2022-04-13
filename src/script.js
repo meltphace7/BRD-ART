@@ -2,6 +2,8 @@
 
 const headerSlides = document.querySelectorAll('.header-slide');
 const headerSlider = document.querySelector('.header-slider');
+const mobileSlides = document.querySelectorAll(".mobile-header-slide");
+const mobileSlider = document.querySelector(".mobile-header-slider");
 const cartIcon = document.querySelector('.cart-icon')
 const cartItemsBadgeNum = document.querySelector(".cart-items-badge-num");
 const mobileBadgeNum = document.querySelector(".mobile-cart-items-badge-num");
@@ -21,11 +23,16 @@ calcItems();
 
 
 /* _______  HEADER-SLIDER ______________*/
+
+
 let curSlide = 0;
 const maxSlide = headerSlides.length - 1;
 
 const goToHeaderSlide = function(slide) {
     headerSlides.forEach((s, i) => s.style.transform = `translateX(${100 * (i - slide)}%)`)
+    mobileSlides.forEach(
+      (s, i) => (s.style.transform = `translateX(${100 * (i - slide)}%)`)
+    );
 }
 
 goToHeaderSlide(0);

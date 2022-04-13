@@ -47,6 +47,30 @@
     height: 13rem;
 }
 
+.header-slide {
+  display: none;
+}
+
+.hs {
+  display: none;
+}
+
+.mobile-header-slide {
+  display: flex;
+}
+
+.mobile-header-slide-1 {
+    display: flex;
+}
+
+.mobile-header-slide-2 {
+    display: flex;
+}
+
+.mobile-header-slide-3 {
+    display: flex;
+}
+
   /*____ HOMEPAGE-GRID ___________________ */
   
   .feature-grid-item-1 img {
