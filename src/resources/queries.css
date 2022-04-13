@@ -24,6 +24,12 @@
 
 @media (max-width: 45em) {
 
+  body {
+    background-attachment: fixed;
+    background-image: url(img/MOBILE-GLORB-BACKGROUND.jpg);
+    background-position: 50% 50%;
+}
+
 
   nav {
     display: none;
