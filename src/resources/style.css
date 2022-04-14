@@ -1729,6 +1729,10 @@ header {
 
 }
 
+.photo-site-link {
+  color: var(--color-primary);
+}
+
 
 /*___________ SHOP.HTML ______________________________*/
 
