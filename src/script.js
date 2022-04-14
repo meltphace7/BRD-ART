@@ -1,6 +1,7 @@
 "use strict";
 
 const header = document.querySelector('.header')
+const allSections = document.querySelectorAll(".section");
 const mobileNav = document.querySelector(".mobile-nav-menu");
 const headerSlides = document.querySelectorAll('.header-slide');
 const headerSlider = document.querySelector('.header-slider');
@@ -85,5 +86,27 @@ setInterval(nextHeaderSlide, 10000);
 
 
 
+/* _______  SECTION FADE IN. ______________*/
+
+
+
+
+const revealSection = function (entries, observer) {
+  const [entry] = entries;
+
+  if (!entry.isIntersecting) return;
+  entry.target.classList.remove("section--hidden");
+  console.log('INTERSECTING');
+};
+
+const sectionObserver = new IntersectionObserver(revealSection, {
+  root: null,
+  theshold: 0.2,
+});
+
+allSections.forEach(function (section) {
+  sectionObserver.observe(section);
+  section.classList.add("section--hidden");
+});
 
 
