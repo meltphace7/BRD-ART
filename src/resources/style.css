@@ -660,22 +660,10 @@ header {
     border-radius: 5px;
     display: grid;
     background-color: black;
-    /* grid-template-columns: repeat(13 1fr); */
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 0.5rem;
-    animation: fadein 2s ease-in;
   }
 
-  @keyframes fadein {
-    0% {
-      opacity: 0
-    }
-
-     100% {
-      opacity: 1
-    }
-  }
-  
   .feature-grid-item {
     background-color: black;
     display: flex;
@@ -813,8 +801,6 @@ header {
     grid-row-start: 4;
     grid-row-end: 5;
 }
-
-
 
 .feature-grid-item-12 {
     grid-column-start: 3;

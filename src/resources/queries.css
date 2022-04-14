@@ -53,7 +53,7 @@
     height: 13rem;
 }
 
-.header-slide {
+/* .header-slide {
   display: none;
 }
 
@@ -64,7 +64,7 @@
 .zoom-overlay {
   animation: none;
 
-}
+} */
 
 .mobile-header-slide {
   display: flex;
