@@ -16,6 +16,14 @@
   height: 16rem;
 }
 
+.slider-btn {
+  display: none;
+}
+
+.mobile-slider-btn {
+  display: flex;
+}
+
 }
 
 
